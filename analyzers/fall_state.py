@@ -61,9 +61,7 @@ class FallState:
 
                     self.state = "FALL"
 
-        # -------------------------
-        # FALL
-        # -------------------------
+
         elif self.state == "FALL":
 
             pass

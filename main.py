@@ -12,7 +12,7 @@ from ui.dashboard import Dashboard
 # CONFIG
 # ===================================
 BASE_DIR = Path(__file__).resolve().parent
-VIDEO_PATH = BASE_DIR / "videos" / "fall.mp4"
+VIDEO_PATH = BASE_DIR / "videos" / "fall5.mp4"
 
 print(f"Loading video: {VIDEO_PATH}")
 
