@@ -57,14 +57,9 @@ while True:
     status = "NORMAL"
     confidence = 0
 
-    # ===================================
-    # PERSON DETECTION
-    # ===================================
+
     persons = person_detector.detect(frame)
 
-    # ===================================
-    # POSE DETECTION
-    # ===================================
     pose_result = pose_detector.detect(frame)
 
     if pose_result.pose_landmarks:
