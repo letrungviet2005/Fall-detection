@@ -31,9 +31,7 @@ fall_detector = FallDetector()
 motion_analyzer = MotionAnalyzer()
 dashboard = Dashboard()
 
-# ===================================
-# MAIN LOOP
-# ===================================
+
 while True:
 
     ret, frame = video.read()
@@ -41,9 +39,7 @@ while True:
     if not ret:
         break
 
-    # -----------------------------
-    # Default values
-    # -----------------------------
+
     body_angle = "--"
     pose_status = "Not Found"
 
