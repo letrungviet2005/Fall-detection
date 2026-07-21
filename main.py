@@ -88,9 +88,6 @@ while True:
             hip_y
         )
 
-    # ===================================
-    # FALL DETECTION
-    # ===================================
     if len(persons) > 0 and body_angle != "--":
 
         confidence = max(
