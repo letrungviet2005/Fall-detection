@@ -70,14 +70,8 @@ while True:
 
         landmarks = pose_result.pose_landmarks.landmark
 
-        # -----------------------------
-        # Body Angle
-        # -----------------------------
-        body_angle = fall_detector.body_angle(landmarks)
 
-        # -----------------------------
-        # Hip Center
-        # -----------------------------
+        body_angle = fall_detector.body_angle(landmarks)
         left_hip = landmarks[
             pose_detector.mp_pose.PoseLandmark.LEFT_HIP
         ]
